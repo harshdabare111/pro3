@@ -1,0 +1,18 @@
+<p>contact works!</p>
+<form #data="ngForm"(ngSubmit)="save(data)">
+    <label>Enter name : </label>
+    <input type="text" name="name" ngModel><br><br>
+    <label>Enter address : </label>
+    <input type="text" name="address" ngModel><br><br>
+    <label>Enter username : </label>
+    <input type="text" name="username" ngModel><br><br>
+    <label>Enter password : </label>
+    <input type="password" name="password" ngModel><br><br>
+    <input type="submit">
+</form>
+
+{{newname}}
+{{newaddress}}
+{{newusername}}
+{{newpassword}} 
+{{msg.message}}
